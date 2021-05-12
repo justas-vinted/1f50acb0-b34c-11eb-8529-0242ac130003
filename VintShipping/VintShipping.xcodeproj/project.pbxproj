@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBEE252264BFE15006054A4 /* VintShipping.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBEE250264BFE15006054A4 /* VintShipping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBEE26E264BFE5E006054A4 /* VintParcelTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE265264BFE5E006054A4 /* VintParcelTracking.framework */; };
+		6EBEE273264BFE5E006054A4 /* VintParcelTrackingModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE272264BFE5E006054A4 /* VintParcelTrackingModuleTests.swift */; };
+		6EBEE275264BFE5E006054A4 /* VintParcelTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBEE267264BFE5E006054A4 /* VintParcelTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBEE283264BFE74006054A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE282264BFE74006054A4 /* AppDelegate.swift */; };
+		6EBEE285264BFE74006054A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE284264BFE74006054A4 /* SceneDelegate.swift */; };
+		6EBEE287264BFE74006054A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE286264BFE74006054A4 /* ViewController.swift */; };
+		6EBEE28A264BFE74006054A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE288264BFE74006054A4 /* Main.storyboard */; };
+		6EBEE28C264BFE75006054A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE28B264BFE75006054A4 /* Assets.xcassets */; };
+		6EBEE28F264BFE75006054A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE28D264BFE75006054A4 /* LaunchScreen.storyboard */; };
+		6EBEE295264BFEA9006054A4 /* VintParcelTrackingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE294264BFEA9006054A4 /* VintParcelTrackingModule.swift */; };
+		6EBEE296264BFEA9006054A4 /* VintParcelTrackingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE294264BFEA9006054A4 /* VintParcelTrackingModule.swift */; };
+		6EBEE2A3264C0145006054A4 /* VintParcelTrackingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A2264C0145006054A4 /* VintParcelTrackingContext.swift */; };
+		6EBEE2A4264C0145006054A4 /* VintParcelTrackingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A2264C0145006054A4 /* VintParcelTrackingContext.swift */; };
+		6EBEE2A6264C0188006054A4 /* VintShipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A5264C0188006054A4 /* VintShipping.swift */; };
+		6EBEE2A7264C0188006054A4 /* VintShipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A5264C0188006054A4 /* VintShipping.swift */; };
+		6EBEE2A9264C01BD006054A4 /* VintShippingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A8264C01BD006054A4 /* VintShippingContext.swift */; };
+		6EBEE2AA264C01BD006054A4 /* VintShippingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2A8264C01BD006054A4 /* VintShippingContext.swift */; };
+		6EBEE2B8264C08BD006054A4 /* ShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2B1264C08BD006054A4 /* ShippingViewController.swift */; };
+		6EBEE2C7264C08FC006054A4 /* ParcelTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2C0264C08FC006054A4 /* ParcelTrackingViewController.swift */; };
+		6EBEE306264C09AE006054A4 /* VintAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE300264C098E006054A4 /* VintAPI.framework */; };
+		6EBEE307264C09B5006054A4 /* VintAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE300264C098E006054A4 /* VintAPI.framework */; };
+		6EBEE311264C0A50006054A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE310264C0A50006054A4 /* AppDelegate.swift */; };
+		6EBEE313264C0A50006054A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE312264C0A50006054A4 /* SceneDelegate.swift */; };
+		6EBEE315264C0A50006054A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE314264C0A50006054A4 /* ViewController.swift */; };
+		6EBEE318264C0A50006054A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE316264C0A50006054A4 /* Main.storyboard */; };
+		6EBEE31A264C0A51006054A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE319264C0A51006054A4 /* Assets.xcassets */; };
+		6EBEE31D264C0A51006054A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE31B264C0A51006054A4 /* LaunchScreen.storyboard */; };
+		6EBEE326264C110C006054A4 /* VintShipping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE24D264BFE15006054A4 /* VintShipping.framework */; };
+		6EBEE327264C110C006054A4 /* VintShipping.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE24D264BFE15006054A4 /* VintShipping.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EBEE32D264C1423006054A4 /* ParcelTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE2C0264C08FC006054A4 /* ParcelTrackingViewController.swift */; };
+		6EBEE335264C16C8006054A4 /* VintShippingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE334264C16C8006054A4 /* VintShippingTests.swift */; };
+		6EBEE337264C16C8006054A4 /* VintShipping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE24D264BFE15006054A4 /* VintShipping.framework */; };
+		6EBEE340264C44F8006054A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE33F264C44F8006054A4 /* Images.xcassets */; };
+		6EBEE342264C45ED006054A4 /* Tracking.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE341264C45ED006054A4 /* Tracking.xcassets */; };
+		6EBEE343264C45ED006054A4 /* Tracking.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE341264C45ED006054A4 /* Tracking.xcassets */; };
+		6EBEE345264C4627006054A4 /* ShippingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE344264C4627006054A4 /* ShippingViewController.xib */; };
+		6EBEE346264C4627006054A4 /* ShippingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE344264C4627006054A4 /* ShippingViewController.xib */; };
+		6EBEE348264C4983006054A4 /* ParcelTrackingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE347264C4983006054A4 /* ParcelTrackingViewController.xib */; };
+		6EBEE349264C4983006054A4 /* ParcelTrackingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE347264C4983006054A4 /* ParcelTrackingViewController.xib */; };
+		6EBEE34C264C4A87006054A4 /* ShippingTrackingDetailsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE34B264C4A87006054A4 /* ShippingTrackingDetailsProviding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBEE26F264BFE5E006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE244264BFE15006054A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE264264BFE5E006054A4;
+			remoteInfo = VintParcelTracking;
+		};
+		6EBEE2FF264C098E006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE2D5264C0932006054A4;
+			remoteInfo = VintAPI;
+		};
+		6EBEE301264C098E006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE2DE264C0932006054A4;
+			remoteInfo = VintAPITests;
+		};
+		6EBEE303264C0997006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE2D4264C0932006054A4;
+			remoteInfo = VintAPI;
+		};
+		6EBEE308264C09BA006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE2D4264C0932006054A4;
+			remoteInfo = VintAPI;
+		};
+		6EBEE322264C0A61006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE244264BFE15006054A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE24C264BFE15006054A4;
+			remoteInfo = VintShipping;
+		};
+		6EBEE324264C0A67006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE244264BFE15006054A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE264264BFE5E006054A4;
+			remoteInfo = VintParcelTracking;
+		};
+		6EBEE328264C110C006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE244264BFE15006054A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE24C264BFE15006054A4;
+			remoteInfo = VintShipping;
+		};
+		6EBEE338264C16C8006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE244264BFE15006054A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE24C264BFE15006054A4;
+			remoteInfo = VintShipping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EBEE32A264C110C006054A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EBEE327264C110C006054A4 /* VintShipping.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6EBEE24D264BFE15006054A4 /* VintShipping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VintShipping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE250264BFE15006054A4 /* VintShipping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VintShipping.h; sourceTree = "<group>"; };
+		6EBEE251264BFE15006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE265264BFE5E006054A4 /* VintParcelTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VintParcelTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE267264BFE5E006054A4 /* VintParcelTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VintParcelTracking.h; sourceTree = "<group>"; };
+		6EBEE268264BFE5E006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE26D264BFE5E006054A4 /* VintParcelTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VintParcelTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE272264BFE5E006054A4 /* VintParcelTrackingModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintParcelTrackingModuleTests.swift; sourceTree = "<group>"; };
+		6EBEE274264BFE5E006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE280264BFE74006054A4 /* VintParcelTrackingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VintParcelTrackingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE282264BFE74006054A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBEE284264BFE74006054A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EBEE286264BFE74006054A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EBEE289264BFE74006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBEE28B264BFE75006054A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBEE28E264BFE75006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBEE290264BFE75006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE294264BFEA9006054A4 /* VintParcelTrackingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintParcelTrackingModule.swift; sourceTree = "<group>"; };
+		6EBEE2A2264C0145006054A4 /* VintParcelTrackingContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintParcelTrackingContext.swift; sourceTree = "<group>"; };
+		6EBEE2A5264C0188006054A4 /* VintShipping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintShipping.swift; sourceTree = "<group>"; };
+		6EBEE2A8264C01BD006054A4 /* VintShippingContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintShippingContext.swift; sourceTree = "<group>"; };
+		6EBEE2B1264C08BD006054A4 /* ShippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingViewController.swift; sourceTree = "<group>"; };
+		6EBEE2C0264C08FC006054A4 /* ParcelTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelTrackingViewController.swift; sourceTree = "<group>"; };
+		6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VintAPI.xcodeproj; path = ../VintAPI/VintAPI.xcodeproj; sourceTree = "<group>"; };
+		6EBEE30E264C0A50006054A4 /* VintShippingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VintShippingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE310264C0A50006054A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBEE312264C0A50006054A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EBEE314264C0A50006054A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EBEE317264C0A50006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBEE319264C0A51006054A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBEE31C264C0A51006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBEE31E264C0A51006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE332264C16C8006054A4 /* VintShippingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VintShippingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE334264C16C8006054A4 /* VintShippingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VintShippingTests.swift; sourceTree = "<group>"; };
+		6EBEE336264C16C8006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE33F264C44F8006054A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EBEE341264C45ED006054A4 /* Tracking.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tracking.xcassets; sourceTree = "<group>"; };
+		6EBEE344264C4627006054A4 /* ShippingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShippingViewController.xib; sourceTree = "<group>"; };
+		6EBEE347264C4983006054A4 /* ParcelTrackingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParcelTrackingViewController.xib; sourceTree = "<group>"; };
+		6EBEE34B264C4A87006054A4 /* ShippingTrackingDetailsProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingTrackingDetailsProviding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBEE24A264BFE15006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE306264C09AE006054A4 /* VintAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE262264BFE5E006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE307264C09B5006054A4 /* VintAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE26A264BFE5E006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE26E264BFE5E006054A4 /* VintParcelTracking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE27D264BFE74006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE30B264C0A50006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE326264C110C006054A4 /* VintShipping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE32F264C16C8006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE337264C16C8006054A4 /* VintShipping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBEE243264BFE15006054A4 = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */,
+				6EBEE24F264BFE15006054A4 /* VintShipping */,
+				6EBEE266264BFE5E006054A4 /* VintParcelTracking */,
+				6EBEE271264BFE5E006054A4 /* VintParcelTrackingTests */,
+				6EBEE281264BFE74006054A4 /* VintParcelTrackingDemo */,
+				6EBEE30F264C0A50006054A4 /* VintShippingDemo */,
+				6EBEE333264C16C8006054A4 /* VintShippingTests */,
+				6EBEE24E264BFE15006054A4 /* Products */,
+				6EBEE305264C09AE006054A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBEE24E264BFE15006054A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE24D264BFE15006054A4 /* VintShipping.framework */,
+				6EBEE265264BFE5E006054A4 /* VintParcelTracking.framework */,
+				6EBEE26D264BFE5E006054A4 /* VintParcelTrackingTests.xctest */,
+				6EBEE280264BFE74006054A4 /* VintParcelTrackingDemo.app */,
+				6EBEE30E264C0A50006054A4 /* VintShippingDemo.app */,
+				6EBEE332264C16C8006054A4 /* VintShippingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBEE24F264BFE15006054A4 /* VintShipping */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2AB264C087D006054A4 /* Scenes */,
+				6EBEE250264BFE15006054A4 /* VintShipping.h */,
+				6EBEE251264BFE15006054A4 /* Info.plist */,
+				6EBEE2A5264C0188006054A4 /* VintShipping.swift */,
+				6EBEE2A8264C01BD006054A4 /* VintShippingContext.swift */,
+				6EBEE34B264C4A87006054A4 /* ShippingTrackingDetailsProviding.swift */,
+				6EBEE33F264C44F8006054A4 /* Images.xcassets */,
+			);
+			path = VintShipping;
+			sourceTree = "<group>";
+		};
+		6EBEE266264BFE5E006054A4 /* VintParcelTracking */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2AC264C0887006054A4 /* Scenes */,
+				6EBEE267264BFE5E006054A4 /* VintParcelTracking.h */,
+				6EBEE268264BFE5E006054A4 /* Info.plist */,
+				6EBEE294264BFEA9006054A4 /* VintParcelTrackingModule.swift */,
+				6EBEE2A2264C0145006054A4 /* VintParcelTrackingContext.swift */,
+				6EBEE341264C45ED006054A4 /* Tracking.xcassets */,
+			);
+			path = VintParcelTracking;
+			sourceTree = "<group>";
+		};
+		6EBEE271264BFE5E006054A4 /* VintParcelTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE272264BFE5E006054A4 /* VintParcelTrackingModuleTests.swift */,
+				6EBEE274264BFE5E006054A4 /* Info.plist */,
+			);
+			path = VintParcelTrackingTests;
+			sourceTree = "<group>";
+		};
+		6EBEE281264BFE74006054A4 /* VintParcelTrackingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE282264BFE74006054A4 /* AppDelegate.swift */,
+				6EBEE284264BFE74006054A4 /* SceneDelegate.swift */,
+				6EBEE286264BFE74006054A4 /* ViewController.swift */,
+				6EBEE288264BFE74006054A4 /* Main.storyboard */,
+				6EBEE28B264BFE75006054A4 /* Assets.xcassets */,
+				6EBEE28D264BFE75006054A4 /* LaunchScreen.storyboard */,
+				6EBEE290264BFE75006054A4 /* Info.plist */,
+			);
+			path = VintParcelTrackingDemo;
+			sourceTree = "<group>";
+		};
+		6EBEE2AB264C087D006054A4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2AD264C0891006054A4 /* ShippingScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6EBEE2AC264C0887006054A4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2BC264C08E5006054A4 /* ParcelTrackingScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6EBEE2AD264C0891006054A4 /* ShippingScene */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2B1264C08BD006054A4 /* ShippingViewController.swift */,
+				6EBEE344264C4627006054A4 /* ShippingViewController.xib */,
+			);
+			path = ShippingScene;
+			sourceTree = "<group>";
+		};
+		6EBEE2BC264C08E5006054A4 /* ParcelTrackingScene */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2C0264C08FC006054A4 /* ParcelTrackingViewController.swift */,
+				6EBEE347264C4983006054A4 /* ParcelTrackingViewController.xib */,
+			);
+			path = ParcelTrackingScene;
+			sourceTree = "<group>";
+		};
+		6EBEE2FB264C098E006054A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE300264C098E006054A4 /* VintAPI.framework */,
+				6EBEE302264C098E006054A4 /* VintAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBEE305264C09AE006054A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EBEE30F264C0A50006054A4 /* VintShippingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE310264C0A50006054A4 /* AppDelegate.swift */,
+				6EBEE312264C0A50006054A4 /* SceneDelegate.swift */,
+				6EBEE314264C0A50006054A4 /* ViewController.swift */,
+				6EBEE316264C0A50006054A4 /* Main.storyboard */,
+				6EBEE319264C0A51006054A4 /* Assets.xcassets */,
+				6EBEE31B264C0A51006054A4 /* LaunchScreen.storyboard */,
+				6EBEE31E264C0A51006054A4 /* Info.plist */,
+			);
+			path = VintShippingDemo;
+			sourceTree = "<group>";
+		};
+		6EBEE333264C16C8006054A4 /* VintShippingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE334264C16C8006054A4 /* VintShippingTests.swift */,
+				6EBEE336264C16C8006054A4 /* Info.plist */,
+			);
+			path = VintShippingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EBEE248264BFE15006054A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE252264BFE15006054A4 /* VintShipping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE260264BFE5E006054A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE275264BFE5E006054A4 /* VintParcelTracking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EBEE24C264BFE15006054A4 /* VintShipping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE255264BFE15006054A4 /* Build configuration list for PBXNativeTarget "VintShipping" */;
+			buildPhases = (
+				6EBEE248264BFE15006054A4 /* Headers */,
+				6EBEE249264BFE15006054A4 /* Sources */,
+				6EBEE24A264BFE15006054A4 /* Frameworks */,
+				6EBEE24B264BFE15006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE304264C0997006054A4 /* PBXTargetDependency */,
+			);
+			name = VintShipping;
+			productName = VintShipping;
+			productReference = 6EBEE24D264BFE15006054A4 /* VintShipping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EBEE264264BFE5E006054A4 /* VintParcelTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE27A264BFE5E006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTracking" */;
+			buildPhases = (
+				6EBEE260264BFE5E006054A4 /* Headers */,
+				6EBEE261264BFE5E006054A4 /* Sources */,
+				6EBEE262264BFE5E006054A4 /* Frameworks */,
+				6EBEE263264BFE5E006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE309264C09BA006054A4 /* PBXTargetDependency */,
+			);
+			name = VintParcelTracking;
+			productName = VintParcelTracking;
+			productReference = 6EBEE265264BFE5E006054A4 /* VintParcelTracking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EBEE26C264BFE5E006054A4 /* VintParcelTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE27B264BFE5E006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTrackingTests" */;
+			buildPhases = (
+				6EBEE269264BFE5E006054A4 /* Sources */,
+				6EBEE26A264BFE5E006054A4 /* Frameworks */,
+				6EBEE26B264BFE5E006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE270264BFE5E006054A4 /* PBXTargetDependency */,
+			);
+			name = VintParcelTrackingTests;
+			productName = VintParcelTrackingTests;
+			productReference = 6EBEE26D264BFE5E006054A4 /* VintParcelTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EBEE27F264BFE74006054A4 /* VintParcelTrackingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE291264BFE75006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTrackingDemo" */;
+			buildPhases = (
+				6EBEE27C264BFE74006054A4 /* Sources */,
+				6EBEE27D264BFE74006054A4 /* Frameworks */,
+				6EBEE27E264BFE74006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE325264C0A67006054A4 /* PBXTargetDependency */,
+			);
+			name = VintParcelTrackingDemo;
+			productName = VintParcelTrackingDemo;
+			productReference = 6EBEE280264BFE74006054A4 /* VintParcelTrackingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBEE30D264C0A50006054A4 /* VintShippingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE31F264C0A51006054A4 /* Build configuration list for PBXNativeTarget "VintShippingDemo" */;
+			buildPhases = (
+				6EBEE30A264C0A50006054A4 /* Sources */,
+				6EBEE30B264C0A50006054A4 /* Frameworks */,
+				6EBEE30C264C0A50006054A4 /* Resources */,
+				6EBEE32A264C110C006054A4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE323264C0A61006054A4 /* PBXTargetDependency */,
+				6EBEE329264C110C006054A4 /* PBXTargetDependency */,
+			);
+			name = VintShippingDemo;
+			productName = VintShippingDemo;
+			productReference = 6EBEE30E264C0A50006054A4 /* VintShippingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBEE331264C16C8006054A4 /* VintShippingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE33A264C16C8006054A4 /* Build configuration list for PBXNativeTarget "VintShippingTests" */;
+			buildPhases = (
+				6EBEE32E264C16C8006054A4 /* Sources */,
+				6EBEE32F264C16C8006054A4 /* Frameworks */,
+				6EBEE330264C16C8006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE339264C16C8006054A4 /* PBXTargetDependency */,
+			);
+			name = VintShippingTests;
+			productName = VintShippingTests;
+			productReference = 6EBEE332264C16C8006054A4 /* VintShippingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBEE244264BFE15006054A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6EBEE24C264BFE15006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					6EBEE264264BFE5E006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					6EBEE26C264BFE5E006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6EBEE27F264BFE74006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6EBEE30D264C0A50006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6EBEE331264C16C8006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6EBEE247264BFE15006054A4 /* Build configuration list for PBXProject "VintShipping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBEE243264BFE15006054A4;
+			productRefGroup = 6EBEE24E264BFE15006054A4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EBEE2FB264C098E006054A4 /* Products */;
+					ProjectRef = 6EBEE2FA264C098E006054A4 /* VintAPI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6EBEE24C264BFE15006054A4 /* VintShipping */,
+				6EBEE331264C16C8006054A4 /* VintShippingTests */,
+				6EBEE30D264C0A50006054A4 /* VintShippingDemo */,
+				6EBEE264264BFE5E006054A4 /* VintParcelTracking */,
+				6EBEE26C264BFE5E006054A4 /* VintParcelTrackingTests */,
+				6EBEE27F264BFE74006054A4 /* VintParcelTrackingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6EBEE300264C098E006054A4 /* VintAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VintAPI.framework;
+			remoteRef = 6EBEE2FF264C098E006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE302264C098E006054A4 /* VintAPITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VintAPITests.xctest;
+			remoteRef = 6EBEE301264C098E006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBEE24B264BFE15006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE348264C4983006054A4 /* ParcelTrackingViewController.xib in Resources */,
+				6EBEE345264C4627006054A4 /* ShippingViewController.xib in Resources */,
+				6EBEE342264C45ED006054A4 /* Tracking.xcassets in Resources */,
+				6EBEE340264C44F8006054A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE263264BFE5E006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE349264C4983006054A4 /* ParcelTrackingViewController.xib in Resources */,
+				6EBEE346264C4627006054A4 /* ShippingViewController.xib in Resources */,
+				6EBEE343264C45ED006054A4 /* Tracking.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE26B264BFE5E006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE27E264BFE74006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE28F264BFE75006054A4 /* LaunchScreen.storyboard in Resources */,
+				6EBEE28C264BFE75006054A4 /* Assets.xcassets in Resources */,
+				6EBEE28A264BFE74006054A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE30C264C0A50006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE31D264C0A51006054A4 /* LaunchScreen.storyboard in Resources */,
+				6EBEE31A264C0A51006054A4 /* Assets.xcassets in Resources */,
+				6EBEE318264C0A50006054A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE330264C16C8006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBEE249264BFE15006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE2B8264C08BD006054A4 /* ShippingViewController.swift in Sources */,
+				6EBEE295264BFEA9006054A4 /* VintParcelTrackingModule.swift in Sources */,
+				6EBEE32D264C1423006054A4 /* ParcelTrackingViewController.swift in Sources */,
+				6EBEE2A6264C0188006054A4 /* VintShipping.swift in Sources */,
+				6EBEE2A3264C0145006054A4 /* VintParcelTrackingContext.swift in Sources */,
+				6EBEE34C264C4A87006054A4 /* ShippingTrackingDetailsProviding.swift in Sources */,
+				6EBEE2A9264C01BD006054A4 /* VintShippingContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE261264BFE5E006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE296264BFEA9006054A4 /* VintParcelTrackingModule.swift in Sources */,
+				6EBEE2A7264C0188006054A4 /* VintShipping.swift in Sources */,
+				6EBEE2A4264C0145006054A4 /* VintParcelTrackingContext.swift in Sources */,
+				6EBEE2C7264C08FC006054A4 /* ParcelTrackingViewController.swift in Sources */,
+				6EBEE2AA264C01BD006054A4 /* VintShippingContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE269264BFE5E006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE273264BFE5E006054A4 /* VintParcelTrackingModuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE27C264BFE74006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE287264BFE74006054A4 /* ViewController.swift in Sources */,
+				6EBEE283264BFE74006054A4 /* AppDelegate.swift in Sources */,
+				6EBEE285264BFE74006054A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE30A264C0A50006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE315264C0A50006054A4 /* ViewController.swift in Sources */,
+				6EBEE311264C0A50006054A4 /* AppDelegate.swift in Sources */,
+				6EBEE313264C0A50006054A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBEE32E264C16C8006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE335264C16C8006054A4 /* VintShippingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBEE270264BFE5E006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBEE264264BFE5E006054A4 /* VintParcelTracking */;
+			targetProxy = 6EBEE26F264BFE5E006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE304264C0997006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VintAPI;
+			targetProxy = 6EBEE303264C0997006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE309264C09BA006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VintAPI;
+			targetProxy = 6EBEE308264C09BA006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE323264C0A61006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBEE24C264BFE15006054A4 /* VintShipping */;
+			targetProxy = 6EBEE322264C0A61006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE325264C0A67006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBEE264264BFE5E006054A4 /* VintParcelTracking */;
+			targetProxy = 6EBEE324264C0A67006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE329264C110C006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBEE24C264BFE15006054A4 /* VintShipping */;
+			targetProxy = 6EBEE328264C110C006054A4 /* PBXContainerItemProxy */;
+		};
+		6EBEE339264C16C8006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBEE24C264BFE15006054A4 /* VintShipping */;
+			targetProxy = 6EBEE338264C16C8006054A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EBEE288264BFE74006054A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE289264BFE74006054A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBEE28D264BFE75006054A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE28E264BFE75006054A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBEE316264C0A50006054A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE317264C0A50006054A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBEE31B264C0A51006054A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE31C264C0A51006054A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBEE253264BFE15006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EBEE254264BFE15006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EBEE256264BFE15006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VintShipping/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShipping;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE257264BFE15006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VintShipping/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShipping;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBEE276264BFE5E006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VintParcelTracking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTracking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE277264BFE5E006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VintParcelTracking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTracking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBEE278264BFE5E006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintParcelTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE279264BFE5E006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintParcelTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBEE292264BFE75006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintParcelTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE293264BFE75006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintParcelTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintParcelTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBEE320264C0A51006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintShippingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShippingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE321264C0A51006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintShippingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShippingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EBEE33B264C16C8006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintShippingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShippingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE33C264C16C8006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VintShippingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VintShippingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBEE247264BFE15006054A4 /* Build configuration list for PBXProject "VintShipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE253264BFE15006054A4 /* Debug */,
+				6EBEE254264BFE15006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE255264BFE15006054A4 /* Build configuration list for PBXNativeTarget "VintShipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE256264BFE15006054A4 /* Debug */,
+				6EBEE257264BFE15006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE27A264BFE5E006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE276264BFE5E006054A4 /* Debug */,
+				6EBEE277264BFE5E006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE27B264BFE5E006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE278264BFE5E006054A4 /* Debug */,
+				6EBEE279264BFE5E006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE291264BFE75006054A4 /* Build configuration list for PBXNativeTarget "VintParcelTrackingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE292264BFE75006054A4 /* Debug */,
+				6EBEE293264BFE75006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE31F264C0A51006054A4 /* Build configuration list for PBXNativeTarget "VintShippingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE320264C0A51006054A4 /* Debug */,
+				6EBEE321264C0A51006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE33A264C16C8006054A4 /* Build configuration list for PBXNativeTarget "VintShippingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE33B264C16C8006054A4 /* Debug */,
+				6EBEE33C264C16C8006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBEE244264BFE15006054A4 /* Project object */;
+}

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBEE230264BFDF7006054A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE22F264BFDF7006054A4 /* AppDelegate.swift */; };
+		6EBEE232264BFDF7006054A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE231264BFDF7006054A4 /* SceneDelegate.swift */; };
+		6EBEE234264BFDF7006054A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEE233264BFDF7006054A4 /* ViewController.swift */; };
+		6EBEE237264BFDF7006054A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE235264BFDF7006054A4 /* Main.storyboard */; };
+		6EBEE239264BFDF9006054A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE238264BFDF9006054A4 /* Assets.xcassets */; };
+		6EBEE23C264BFDF9006054A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEE23A264BFDF9006054A4 /* LaunchScreen.storyboard */; };
+		6EBEE2A1264BFEF7006054A4 /* VintShipping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEE25D264BFE3A006054A4 /* VintShipping.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBEE25C264BFE3A006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE24D264BFE15006054A4;
+			remoteInfo = VintShipping;
+		};
+		6EBEE25E264BFE44006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBEE24C264BFE15006054A4;
+			remoteInfo = VintShipping;
+		};
+		6EBEE29B264BFEF7006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE265264BFE5E006054A4;
+			remoteInfo = VintParcelTracking;
+		};
+		6EBEE29D264BFEF7006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE26D264BFE5E006054A4;
+			remoteInfo = VintParcelTrackingTests;
+		};
+		6EBEE29F264BFEF7006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE280264BFE74006054A4;
+			remoteInfo = VintParcelTrackingDemo;
+		};
+		6EBEE2F4264C0943006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2EF264C0943006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE2D5264C0932006054A4;
+			remoteInfo = VintAPI;
+		};
+		6EBEE2F6264C0943006054A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBEE2EF264C0943006054A4 /* VintAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBEE2DE264C0932006054A4;
+			remoteInfo = VintAPITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EBEE22C264BFDF7006054A4 /* VinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBEE22F264BFDF7006054A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBEE231264BFDF7006054A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EBEE233264BFDF7006054A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EBEE236264BFDF7006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBEE238264BFDF9006054A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBEE23B264BFDF9006054A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBEE23D264BFDF9006054A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VintShipping.xcodeproj; path = VintShipping/VintShipping.xcodeproj; sourceTree = "<group>"; };
+		6EBEE2EF264C0943006054A4 /* VintAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VintAPI.xcodeproj; path = VintAPI/VintAPI.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBEE229264BFDF7006054A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE2A1264BFEF7006054A4 /* VintShipping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBEE223264BFDF7006054A4 = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2EF264C0943006054A4 /* VintAPI.xcodeproj */,
+				6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */,
+				6EBEE22E264BFDF7006054A4 /* VinApp */,
+				6EBEE22D264BFDF7006054A4 /* Products */,
+				6EBEE297264BFEF7006054A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBEE22D264BFDF7006054A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE22C264BFDF7006054A4 /* VinApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBEE22E264BFDF7006054A4 /* VinApp */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE22F264BFDF7006054A4 /* AppDelegate.swift */,
+				6EBEE231264BFDF7006054A4 /* SceneDelegate.swift */,
+				6EBEE233264BFDF7006054A4 /* ViewController.swift */,
+				6EBEE235264BFDF7006054A4 /* Main.storyboard */,
+				6EBEE238264BFDF9006054A4 /* Assets.xcassets */,
+				6EBEE23A264BFDF9006054A4 /* LaunchScreen.storyboard */,
+				6EBEE23D264BFDF9006054A4 /* Info.plist */,
+			);
+			path = VinApp;
+			sourceTree = "<group>";
+		};
+		6EBEE259264BFE3A006054A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE25D264BFE3A006054A4 /* VintShipping.framework */,
+				6EBEE29C264BFEF7006054A4 /* VintParcelTracking.framework */,
+				6EBEE29E264BFEF7006054A4 /* VintParcelTrackingTests.xctest */,
+				6EBEE2A0264BFEF7006054A4 /* VintParcelTrackingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBEE297264BFEF7006054A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EBEE2F0264C0943006054A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEE2F5264C0943006054A4 /* VintAPI.framework */,
+				6EBEE2F7264C0943006054A4 /* VintAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBEE22B264BFDF7006054A4 /* VinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBEE240264BFDF9006054A4 /* Build configuration list for PBXNativeTarget "VinApp" */;
+			buildPhases = (
+				6EBEE228264BFDF7006054A4 /* Sources */,
+				6EBEE229264BFDF7006054A4 /* Frameworks */,
+				6EBEE22A264BFDF7006054A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBEE25F264BFE44006054A4 /* PBXTargetDependency */,
+			);
+			name = VinApp;
+			productName = VinApp;
+			productReference = 6EBEE22C264BFDF7006054A4 /* VinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBEE224264BFDF7006054A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6EBEE22B264BFDF7006054A4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6EBEE227264BFDF7006054A4 /* Build configuration list for PBXProject "VinApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBEE223264BFDF7006054A4;
+			productRefGroup = 6EBEE22D264BFDF7006054A4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EBEE2F0264C0943006054A4 /* Products */;
+					ProjectRef = 6EBEE2EF264C0943006054A4 /* VintAPI.xcodeproj */;
+				},
+				{
+					ProductGroup = 6EBEE259264BFE3A006054A4 /* Products */;
+					ProjectRef = 6EBEE258264BFE3A006054A4 /* VintShipping.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6EBEE22B264BFDF7006054A4 /* VinApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6EBEE25D264BFE3A006054A4 /* VintShipping.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VintShipping.framework;
+			remoteRef = 6EBEE25C264BFE3A006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE29C264BFEF7006054A4 /* VintParcelTracking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VintParcelTracking.framework;
+			remoteRef = 6EBEE29B264BFEF7006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE29E264BFEF7006054A4 /* VintParcelTrackingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VintParcelTrackingTests.xctest;
+			remoteRef = 6EBEE29D264BFEF7006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE2A0264BFEF7006054A4 /* VintParcelTrackingDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = VintParcelTrackingDemo.app;
+			remoteRef = 6EBEE29F264BFEF7006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE2F5264C0943006054A4 /* VintAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VintAPI.framework;
+			remoteRef = 6EBEE2F4264C0943006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBEE2F7264C0943006054A4 /* VintAPITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VintAPITests.xctest;
+			remoteRef = 6EBEE2F6264C0943006054A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBEE22A264BFDF7006054A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE23C264BFDF9006054A4 /* LaunchScreen.storyboard in Resources */,
+				6EBEE239264BFDF9006054A4 /* Assets.xcassets in Resources */,
+				6EBEE237264BFDF7006054A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBEE228264BFDF7006054A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBEE234264BFDF7006054A4 /* ViewController.swift in Sources */,
+				6EBEE230264BFDF7006054A4 /* AppDelegate.swift in Sources */,
+				6EBEE232264BFDF7006054A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBEE25F264BFE44006054A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VintShipping;
+			targetProxy = 6EBEE25E264BFE44006054A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EBEE235264BFDF7006054A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE236264BFDF7006054A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBEE23A264BFDF9006054A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBEE23B264BFDF9006054A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBEE23E264BFDF9006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EBEE23F264BFDF9006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBEE241264BFDF9006054A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBEE242264BFDF9006054A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vinted.VinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBEE227264BFDF7006054A4 /* Build configuration list for PBXProject "VinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE23E264BFDF9006054A4 /* Debug */,
+				6EBEE23F264BFDF9006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBEE240264BFDF9006054A4 /* Build configuration list for PBXNativeTarget "VinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBEE241264BFDF9006054A4 /* Debug */,
+				6EBEE242264BFDF9006054A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBEE224264BFDF7006054A4 /* Project object */;
+}
